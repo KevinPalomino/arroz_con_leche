@@ -1,0 +1,97 @@
+/* style.css */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    /* background: linear-gradient(135deg, #fffaf0, #f0f0f0); */
+    background: url(neutral-color-background-1920-x-1080-gnm3dr6coxpbwoci.jpg);
+    padding: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #333;
+    height: 100vh;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2.5em;
+    color: #6b4e16;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  }
+  
+  .card {
+    background-color: #ffffff;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h2 {
+    color: #a0522d;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f3e5ab;
+    padding-bottom: 5px;
+  }
+  
+  .card ul,
+  .card ol {
+    margin: 15px 0 25px 20px;
+    padding-left: 20px;
+  }
+  
+  .card ul li,
+  .card ol li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  
+  .card strong {
+    color: #d2691e;
+  }
+  
+  .card em {
+    font-style: italic;
+    color: #808080;
+  }
+  
+  table{
+    /* border: 1px black solid; */
+    width: 100%;
+  }
+
+  /* tr{
+    border: 1px black solid;
+  }
+
+  td{
+    border: 1px black solid;
+  } */
+
+  .Made{
+    vertical-align: top;
+    background: url(neutral-color-background-1920-x-1080-gnm3dr6coxpbwoci.jpg);
+  }
+
+  h3{
+    text-align: center;
+    font-size: 1em;
+    color: #6b4e16;
+  }
